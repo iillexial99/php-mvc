@@ -10,7 +10,7 @@ class IndexController extends Controller{
          * print_r($this->config);
          * $model = new \Model\Index;
          * echo $model->test();
-         * $this->load->view('index)');
+         * $this->load->view('index');
          */
         
         
