@@ -1,0 +1,12 @@
+{
+	"autoload": {
+        "psr-0": {
+	    "Router": "Core/",
+            "Controller": "Core/",
+            "Model": "Core/",
+            "Config": "System/",
+            "Loader": "System/"
+        }
+        
+        }
+}
