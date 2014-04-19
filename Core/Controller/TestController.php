@@ -1,7 +1,9 @@
 <?php
 namespace Controller;
-class TestController{
-    public function index(){}
+class TestController extends Controller{
+    public function index(){ 
+		$this->load->view('index.php');
+	}
     
  
 }

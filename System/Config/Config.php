@@ -7,10 +7,10 @@ class Config{
         
     }
     
-     public function loadConfig(){
+     public function loadConfig($type){
          
-        require $this->config;
-        return $config;
+        $config = require($this->config);
+        return $config[$type];
         
     }
 

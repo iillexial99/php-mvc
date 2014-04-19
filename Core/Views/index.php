@@ -2,11 +2,12 @@
 <html>
     <head>
         
-        
     </head>
     
     <body>
-        <h2>Test</h2>   
+        <form method="post">
+			<input type="submit" name="test" value="send">
+        </form>
         
     </body>
 </html>

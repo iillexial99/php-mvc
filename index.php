@@ -1,11 +1,13 @@
 <?php
-
+ini_set('display_errors', 1);
 
 require 'vendor/autoload.php';
 
 try{
-    $route=new \Router\Router;
-    $route->_init();
+	
+
+	\Router\Router::_init();
+	
    
 } catch (Exception $ex){
     
